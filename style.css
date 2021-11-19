@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+.formulario {
+    font-family: 'Shippori Antique B1', sans-serif;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 6rem;
+    border-radius: 6rem;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+body {
+    background-color: #9dc7aa;
+}
+button {
+    border-radius: 5rem;
+    width: 11rem;
+    padding: 1rem;
+    background-color: #9dc7aa;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+     
+    border: 0rem;
+    transition: 0.25s;
+
+}
+button:active{
+    transform: scale(1.1);
+}
+input{
+    border: 0rem;
+    border-bottom: 1px solid #9dc7aa;
+}
